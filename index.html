@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Search</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #header {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="content" style="padding: 20px; text-align: center;">
+    <form action="https://www.google.com/search" method="GET">
+      <input type="text" name="q" id="search-bar" style="width: 600px; height: 30px; border-radius: 20px; padding: 5px; font-size: 16px; text-align: center; margin-bottom: 10px;" placeholder="Enter your search query">
+      <br>
+      <div id="buttons">
+        <input type="submit" value="Google Search" id="search-button" style="width: 150px; height: 35px; border-radius: 20px; font-size: 16px; background-color: #4285f4; color: #ffffff; border: none; margin-right: 10px;">
+        <a href="https://www.google.com/search?btnI=1&q=" style="display: block; text-align: center; margin-top: 10px;">I'm Feeling Lucky</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
